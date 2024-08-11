@@ -26,17 +26,17 @@ import config
 from FallenMusic import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
+    [[InlineKeyboardButton(text="𝙜𝙚𝙧𝙞", callback_data="close")]]
 )
 
 
 buttons = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="▷", callback_data="resume_cb"),
-            InlineKeyboardButton(text="II", callback_data="pause_cb"),
-            InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
-            InlineKeyboardButton(text="▢", callback_data="end_cb"),
+            InlineKeyboardButton(text="⏸️", callback_data="resume_cb"),
+            InlineKeyboardButton(text="◀️", callback_data="pause_cb"),
+            InlineKeyboardButton(text="⏩", callback_data="skip_cb"),
+            InlineKeyboardButton(text="⏹️", callback_data="end_cb"),
         ]
     ]
 )
@@ -45,20 +45,20 @@ buttons = InlineKeyboardMarkup(
 pm_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="𝙗𝙚𝙣𝙞 𝙜𝙧𝙪𝙗𝙪𝙣𝙖 𝙚𝙠𝙡𝙚",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
+    [InlineKeyboardButton(text=" 𝙤𝙮𝙣𝙖𝙩 𝙠𝙤𝙢𝙪𝙩𝙡𝙖𝙧 ", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="❄ ᴄʜᴀɴɴᴇʟ ❄", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="𝙠𝙖𝙣𝙖𝙡", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="𝙙𝙚𝙨𝙩𝙚𝙠", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/AnonymousX1025/FallenMusic"
+            text="𝙠𝙖𝙮𝙣𝙖𝙠 𝙠𝙤𝙙", url="https://github.com/AnonymousX1025/FallenMusic"
         ),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="𝙨𝙖𝙝𝙞𝙗𝙞", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -66,19 +66,19 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="𝙗𝙚𝙣𝙞 𝙜𝙧𝙪𝙗𝙪𝙣𝙖 𝙚𝙠𝙡𝙚",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="❄ ᴄʜᴀɴɴᴇʟ ❄", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="𝙠𝙖𝙣𝙖𝙡", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="𝙙𝙚𝙨𝙩𝙚𝙠", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/TheAnonymous2005/FallenMusic"
+            text="𝙠𝙖𝙮𝙣𝙖𝙠 𝙠𝙤𝙙", url="https://github.com/TheAnonymous2005/FallenMusic"
         ),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="𝙨𝙖𝙝𝙞𝙗𝙞", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -86,25 +86,24 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="ᴇᴠᴇʀʏᴏɴᴇ",
+            text="𝙤𝙮𝙣𝙖𝙩 𝙠𝙤𝙢𝙪𝙩𝙡𝙖𝙧",
             callback_data="fallen_cb help",
         )
     ],
     [
-        InlineKeyboardButton(text="sᴜᴅᴏ", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="𝙮𝙤̈𝙣𝙚𝙩𝙞𝙢", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="𝙨𝙖𝙝𝙞𝙗𝙞", callback_data="fallen_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_home"),
-        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        InlineKeyboardButton(text="𝙜𝙚𝙧𝙞", callback_data="fallen_home"),
+        InlineKeyboardButton(text="𝙠𝙖𝙥𝙖𝙩", callback_data="close"),
     ],
 ]
 
 
 help_back = [
-    [InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="𝙙𝙚𝙨𝙩𝙚𝙠", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
-        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        InlineKeyboardButton(text="𝙜𝙚𝙧𝙞", callback_data="fallen_help"),
+        InlineKeyboardButton(text="𝙠𝙖𝙥𝙖𝙩", callback_data="close"),
     ],
-]
