@@ -94,4 +94,4 @@ async def set_name(_, message: Message):
     else:
         return await message.reply_text(
             "» ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴛ ɪᴛ ᴀs ᴀssɪsᴛᴀɴᴛ's ɴᴇᴡ ɴᴀᴍᴇ."
-        )
+            )
