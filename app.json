@@ -13,37 +13,37 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "20584104",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "f325ee578444d70ad2d02b0673f94d3a",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "7164261117:AAFs8YEB0MIHpgXaNAeiAa8AgEgYrzEldnE",
         "required": true
       },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
-        "value": "1356469075",
+        "value": "16604501109",
         "required": true
       },
       "SESSION": {
         "description": "A pyrogram v2 string session from @StringFatherBot",
-        "value": "",
+        "value": "BAHHpwsAPDCRCQjrAyu316Ofz0pTb_g81bCrYPb2LXqht0x14ydB1OzPrk9TTiL-sPFKMyFH8ZTLuzwfygqSGILqWAGGC1unGq6_6PfEUAIucJd9ty_b1BuCel1QIjGgi2KNr32lRKfOTe_dnOGsiAWiMYzFVJS-6YUjUlgQ2qqSjMu6h4l0tcTugsyYxlaakSBL7EWKqp26HTC6vh9s7L-Lg0lJgbZU7cRdNFz5gxNr24jmQTUzncVSMwdlicSW8dDLitz9MyHxY9bY5t7AO8xZlHWFpIRmZEeRi5Warc8M2Jzr6-t-hLrVmR_U816SypB5Bl5WrQ13PvNdHQm8jLIEgE54ywAAAAG4lsWeAA",
         "required": true
       },
       "SUDO_USERS": {
         "description": "The user id(s) of user(s) whom you would like to add as a sudo. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "6604501109",
         "required": true
       },
       "SUPPORT_CHAT": {
         "description": "Link of your telegram support group. (Must pe public)",
-        "value": "https://t.me/DevilsHeavenMF",
+        "value": "https://t.me/kumsalmuzikk",
         "required": false
       }
     },
